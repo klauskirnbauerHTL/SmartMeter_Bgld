@@ -3,18 +3,13 @@ from __future__ import annotations
 
 import logging
 import os
-import sys
 from datetime import datetime, timedelta
 from pathlib import Path
 
 import pandas as pd
 
-# Importiere den bestehenden Selenium Downloader
-# Füge den Parent-Ordner zum Path hinzu
-parent_dir = Path(__file__).parent.parent.parent
-sys.path.insert(0, str(parent_dir))
-
-from smartmeter_selenium import SmartMeterSeleniumDownloader
+# Importiere den Selenium Downloader aus dem gleichen Modul
+from .smartmeter_selenium import SmartMeterSeleniumDownloader
 
 _LOGGER = logging.getLogger(__name__)
 
