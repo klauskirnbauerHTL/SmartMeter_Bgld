@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Config mit sensiblen Daten
+config.py
+config.json
+
+# Downloads
+downloads/
+*.csv
+
+# Exclude JSON files but include important ones
+*.json
+!hacs.json
+!manifest.json
+!strings.json
+!custom_components/**/*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

@@ -1,0 +1,24 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Smart Meter Burgenland Konfiguration",
+        "description": "Geben Sie Ihre Zugangsdaten für das Smart Meter Portal ein.",
+        "data": {
+          "username": "Benutzername (E-Mail)",
+          "password": "Passwort",
+          "price_per_kwh": "Strompreis pro kWh (€)",
+          "headless": "Headless Modus (Browser im Hintergrund)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Verbindung zum Smart Meter Portal fehlgeschlagen",
+      "invalid_auth": "Ungültige Anmeldedaten",
+      "unknown": "Unbekannter Fehler"
+    },
+    "abort": {
+      "already_configured": "Diese Integration wurde bereits konfiguriert"
+    }
+  }
+}
